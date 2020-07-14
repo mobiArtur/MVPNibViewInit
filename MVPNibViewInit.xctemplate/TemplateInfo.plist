@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Presenter</string>
+			<key>Description</key>
+			<string>The name of the Presenter, and Presenter Templates to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Raw Name</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>WithVCFile</string>
+			<key>Name</key>
+			<string>Also create a View Controller file</string>
+			<key>Description</key>
+			<string>Whether to create a View Controller file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>WithVCNibFile</string>
+			<key>Name</key>
+			<string>Also create a View Controller and xib files</string>
+			<key>Description</key>
+			<string>Whether to create a View Controller and xib files with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
